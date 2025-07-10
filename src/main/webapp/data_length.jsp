@@ -8,13 +8,13 @@
 <script type = "text/javascript">
 	function check_func(){
 		var valid = document.loginForm;
-		if(vaild.id.value.length < 4 || vaild.id.value.length > 6) {
+		if(valid.id.value.length < 4 || valid.id.value.length > 6) {
 			alert("아이디는 4~6 이내로 입력")
-			vaild.id.focus();
+			valid.id.focus();
 			return false;
 		}else if(vaild.password.length < 8) {
 			alert("비밀번호는 8자 이상입력")
-			vaild.password.focus();
+			valid.password.focus();
 			return false;
 		}
 		else return true;

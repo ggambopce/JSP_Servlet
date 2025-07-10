@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>EL(Expression Language)</title>
 </head>
 <body>
-
+	${"Hello"} <br/> <!-- 이름없는 객체 literal -->
+	${"안녕하세요"} <br/>
+	<%= "안녕하세요: Hello" %> <br/>
+	<% out.println("Hello world"); %> <br/>
 </body>
 </html>

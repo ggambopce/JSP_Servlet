@@ -9,17 +9,17 @@
 <body>
 	Home > Board
 	<hr/>
-	<form method="get" action="#">
+	<form  action="form_membership02.jsp" method="get">
 		<fieldset style="width:350px">
 		<legend>개인 정보 입력</legend>
 		아이디 : <br/>
-		<input type="text" name="id"><br/><br/>
+		<input type="text" name="p_id"><br/><br/>
 		비밀번호 : <br/>
-		<input type="password" name="password"><br/><br/>
+		<input type="password" name="p_pw"><br/><br/>
 		이름 : <br/>
-		<input type="username" name="username"><br/><br/>
+		<input type="text" name="p_name"><br/><br/>
 		연락처 :<br/>
-		<select name="language">
+		<select name="choice">
 			<option value="SKT">SKT</option>
 			<option value="KT">KT</option>
 			<option value="LG">LG</option>
@@ -29,17 +29,17 @@
 		<input type="text" name="phone3" size="4" maxlength="4">
 		<br/><br/>
 		성별 :
-		<input type="radio" name="gender" >남
-		<input type="radio" name="gender" >여 <br/><br/>
+		<input type="radio" name="gender" value="남">남
+		<input type="radio" name="gender" value="여">여 <br/><br/>
 		취미 :
-		<input type="checkbox" name="hobby1" >운동
-		<input type="checkbox" name="hobby2" >독서
-		<input type="checkbox" name="hobby2" >여행
-		<input type="checkbox" name="hobby3" >음악감상 <br/>
+		<input type="checkbox" name="hobby" value="운동">운동
+		<input type="checkbox" name="hobby" value="독서">독서
+		<input type="checkbox" name="hobby" value="여행">여행
+		<input type="checkbox" name="hobby" value="음악감상">음악감상 <br/>
 		<br/>
 		
 		본인소개 : <br/>
-		<textarea class="message_area" style="width: 100%; height: 50px;" ></textarea>
+		<textarea name="introduction" class="message_area" style="width: 100%; height: 50px;" ></textarea>
 			
 		<hr/>	
 		<div align="center">
